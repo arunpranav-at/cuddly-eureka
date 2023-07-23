@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="output">
+        <input type="text" id="result" readonly>
+      </div>
+      <div class="keys">
+        <button onclick="clearResult()">C</button>
+        <button onclick="deleteDigit()">DEL</button>
+        <button onclick="insertDigit(7)">7</button>
+        <button onclick="insertDigit(8)">8</button>
+        <button onclick="insertDigit(9)">9</button>
+        <button onclick="insertOperator('/')">÷</button>
+        <button onclick="insertDigit(4)">4</button>
+        <button onclick="insertDigit(5)">5</button>
+        <button onclick="insertDigit(6)">6</button>
+        <button onclick="insertOperator('*')">×</button>
+        <button onclick="insertDigit(1)">1</button>
+        <button onclick="insertDigit(2)">2</button>
+        <button onclick="insertDigit(3)">3</button>
+        <button onclick="insertOperator('-')">-</button>
+        <button onclick="insertDigit(0)">0</button>
+        <button onclick="insertDecimalPoint()">.</button>
+        <button onclick="insertOperator('+')">+</button>
+        <button onclick="calculate()">=</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
